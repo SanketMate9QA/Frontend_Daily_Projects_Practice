@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100vh;
+    background-color: yellow;
+    font-family: 'Courier New', Courier, monospace;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.container{
+    background-color: darkcyan;
+    color: aliceblue;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.currency-container{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.currency-container select{
+    padding: 10px;
+}
+
+.currency-container input{
+    border: 0;
+    background: transparent;
+    font-size: 25px;
+    text-align: right;
+    color: aliceblue;
+}
+
+.exchange-rate{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+select:focus,input:focus{
+    outline: 0;
+
+}
+
+/* 
+select:focus,input:focus== this is use to 
+make the input box default highlighting to none */
